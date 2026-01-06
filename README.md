@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This repository documents an applied research project examining emotion-informed burnout indicator modelling using baseline and transformer-based natural language processing models, grounded in a literature-based interpretive framework.
+This repository presents an applied research project on emotion-informed burnout indicator modelling. The project primarily focuses on transformer-based natural language processing models, with baseline models included for comparative reference, and the overall approach is grounded in a literature-informed interpretive framework.
 
-The project includes exploratory data analysis, data preprocessing, baseline modelling, transformer-based experimentation, and evaluation using the publicly available **GoEmotions dataset**. While caregiving-related emotional burden motivates the research, the study adopts a domain-agnostic approach and does not rely on caregiver-specific textual data.
+The project includes exploratory data analysis, data preprocessing, baseline modelling, transformer-based experimentation, and evaluation using the publicly available **GoEmotions dataset**.
 
 A lightweight web-based prototype is also developed to demonstrate the integration of the trained emotion classification model with a literature-informed affective mapping framework.
 
@@ -116,8 +116,7 @@ The following notebooks contain additional experiments conducted during model de
   Contains preprocessed feature representations and labels used across experiments for both baseline and transformer-based models.
 
 - **Prototype components: `burnout_indicator_detection_prototype/`**  
-  Contains the files required to run the web-based prototype. Due to size constraints, the saved best-performing transformer model is not included in the repository. When running `03_transformers.ipynb`, the best model is automatically saved under:  
-  `burnout_indicator_detection_prototype/best_emo_model/`
+  Contains the files required to run the web-based prototype. Due to size constraints, the trained best-performing transformer model is not included in the repository. When  `03_transformers.ipynb` is executed, a `best_emo_model/` directory is created inside `burnout_indicator_detection_prototype/`, and the best-performing transformer model is saved there.
 
 ---
 
